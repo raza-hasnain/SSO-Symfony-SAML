@@ -4,12 +4,20 @@ Following are information to setup sp and idp server, code attached with email, 
 
 https://sp.sso-saml.com/test_sp.php
 
-Demo users:
+**Demo users:**
+
+===============================
+
 Username: student
+
 Password: studentpass
 
+=================================
+
 Username: employee
+
 Password: employeepass
+
 =====================================
 
 Admin user in sp and idp servers
@@ -20,10 +28,11 @@ Password: raza123
 ===================================
 
 Host entries:
-
+````
 127.0.0.1 sp.sso-saml.com
+
 127.0.0.1 idp.sso-saml.com
-==================================
+````
 
 ======== vhost information (change the path accordingly) =========
 ````
