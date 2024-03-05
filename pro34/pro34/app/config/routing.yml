@@ -1,0 +1,26 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+user_registration:
+    path:     /register
+    defaults: { _controller: AppBundle:Registration:register }
+
+login:
+    path:     /login
+    defaults: { _controller: AppBundle:Security:login }
+
+sso_login:
+    path:     /login
+    defaults: { _controller: AppBundle:Security:login }
+
+app_logout:
+    path: /logout
+    methods: GET
+
+lightsaml_sp:
+    resource: "@LightSamlSpBundle/Resources/config/routing.yml"
+    prefix: saml
+
+logout:
+    path: /logout
