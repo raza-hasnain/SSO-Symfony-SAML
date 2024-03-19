@@ -1,4 +1,5 @@
 # SSO-Symfony-SAML
+
 This Symfony project demonstrates how to integrate SAML (Security Assertion Markup Language) for Single Sign-On (SSO) functionality. SAML SSO allows users to authenticate once and access multiple applications without needing to log in again.
 Following are information to setup sp and idp server, code attached with email, please check and let me know if you need any help.
 
